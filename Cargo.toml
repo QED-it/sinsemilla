@@ -14,8 +14,10 @@ repository = "https://github.com/zcash/sinsemilla"
 categories = ["cryptography"]
 
 [dependencies]
+ff = { version = "0.13", default-features = false }
 group = "0.13"
 pasta_curves = { version = "0.5", default-features = false, features = ["alloc"] }
+rand = { version = "0.8" }
 subtle = { version = "2.3", default-features = false }
 
 [features]
